@@ -11,3 +11,9 @@ table{
     font-size: 130%;
     text-align:center;
 }
+#input ,#answer{
+    height: 50px;
+    font-size: 130px;
+    text-align: right;
+    border: none;
+}
