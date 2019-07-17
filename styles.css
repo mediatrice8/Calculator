@@ -1,7 +1,7 @@
 table{
     width: 310px;
     margin: 50px auto;
-    background: #663399;
+    background: #100f31;
     border: none;
     border-radius: 10px;
     padding:0px 20px 20px;
@@ -11,9 +11,20 @@ table{
     font-size: 130%;
     text-align:center;
 }
-#input ,#answer{
+#input, #answer{
+    width:260px;
     height: 50px;
-    font-size: 130px;
+    font-size: 210px;
     text-align: right;
     border: none;
+}
+#input{
+    border: 5px 5px 0px 0px;
+    box-shadow: 2px 2px 2px black;
+    columns: #1e1e1e;
+}
+#answer{
+    border: 5px 5px 0px 0px;
+    box-shadow: 2px 2px 2px black;
+    columns: #1e1e1e
 }
